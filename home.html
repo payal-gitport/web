@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+	<title> The Blues</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+	
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		
+.bgimg{
+	background-image: url(ss5.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height:630px;
+}
+
+.headerset{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+
+.headerset h2{
+	font-size: 42px;
+
+}
+
+.headerset h1{
+	font-size: 70px;
+	font-weight: bold;
+}
+
+
+/*----------------------Ourservice---------------*/
+
+.ourservices{
+	height: 600px;
+	background-image: url(servicebg.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+.ourservices h1{
+	font-size:50px;
+	font-weight: bold;
+}
+.rowsetting{
+	margin: 80px 0px; 
+}
+
+.rowsetting h2{
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.rowsetting p{
+	padding: 10px;
+	color: #6c757d!important;
+}
+
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+.fa-taxi{
+	margin-top: 21px; 
+}
+
+.fa-map-marker{
+	margin-top: 10px;
+}
+.fa-plane{
+	margin-top: 10px;
+}
+
+/*
+\\\\\\\\\\\\\\\\\\\\\\tours////////////*/
+.tours{
+	height: 1700px;
+	width: 100%;
+	padding: 100px 0px 50px;
+}
+
+.tours h1{
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.card{
+	margin-top: 40px;
+}
+/* ---------------------------Achivements---------------------- */
+
+.Achivements{
+	margin-top: 100px;
+	height: 500px;
+}
+/* Contact Form +++++++++*/
+
+.contact-sec h2{
+			text-decoration:underline;
+			font-size: 28px;
+			color: #FFF;
+			font-weight: 600;
+			padding: 15px 0px;
+
+		}
+.contact-sec p{
+			color: #FFF;
+			font-size: 18px;
+			padding: 16px 0 24px;
+		}
+#contact{
+			width: 100%;
+			background-color: #343a40;
+		}
+section#contact div.container{
+			padding: 5%;
+		}
+#contact .btn-primary{
+			background-color: #BE2525;
+			border: 1px solid #BE2525;
+		}
+#contact .btn-primary:hover{
+			background-color: #721616;
+		}
+
+
+/*=========================== footer ============================ */
+/*footer*/
+		footer{
+			padding: 40px 0;
+			background-color: #000d1a;
+		}
+		footer a{
+			color: #BE2525;
+		}
+		footer a:hover{
+			text-decoration:none;
+		}
+		.social-list li{
+			transition:; 0.3s ease;
+			opacity: 0.5;
+			display: inline-block;
+			margin-bottom: 0;
+		}
+		.social-list li a{
+			font-size: 28px;
+			margin-right: 15px;
+
+		}
+		.fa-angle-up{
+			font-size: 28px;
+			color: #000;
+			width: 40px;
+			border: 1px solid #000;
+			line-height: 40px;
+			border-radius: 50%;
+		}
+
+
+
+/*////////responsive\\\\\\\\\\\\\\\\\\*/
+
+@media(min-width:1201px){
+
+}
+
+@media(min-width: 993px) and (max-width: 1200px){
+
+.tours{
+	height: 1700px;
+}
+.Achivements{
+	height: 500px;
+}
+
+}
+@media(min-width: 770px) and (max-width: 992px){
+
+.tours{
+	height: 2000px;
+}
+.Achivements{
+	height: 500px;
+}
+
+}
+
+@media(min-width: 601px) and (max-width: 769px){
+
+.headerset h2{
+	font-size: 42px;
+
+}
+
+.headerset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+
+.ourservices{
+	height: 800px;
+}
+
+.tours{
+	height: 5000px;
+}
+
+.Achivements{
+	height: 500px;
+}
+
+
+}
+@media(min-width: 501px) and (max-width: 600px){
+
+.headerset h2{
+	font-size: 72px;
+
+}
+
+.headerset h1{
+	font-size: 72px;
+	font-weight: bold;
+}
+
+
+.ourservices{
+	height: 1000px;
+}
+
+
+.tours{
+	height: 5000px;
+}
+
+.Achivements{
+	height: 800px;
+}
+
+}
+
+@media(max-width: 500px){
+
+.headerset h2{
+	font-size: 22px;
+
+}
+
+.headerset h1{
+	font-size: 42px;
+	font-weight: bold;
+}
+
+
+.ourservices{
+	height: 1200px;
+}
+
+
+.tours{
+	height: 4800px;
+}
+
+.Achivements{
+	height: 1000px;
+
+}
+
+}
+	</style>
+
+</head>
+<body>
+	<div class="bgimg" id="home">
+		<nav class="navbar navbar-expand-md bg-dark navbar-dark  fixed-top ">
+			
+			<div class="container">
+				<!--<a href="" class="navbar-brand"><img src="tb.jpg" alt="logo" height="42" width="42"></a>	-->
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsenavbar" >
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse text-center" id="collapsenavbar">
+					<ul class="navbar-nav ml-auto ">
+						<li class="nav-item">
+							<a href="#ourservices" class="nav-link text-white">Services</a> 
+						</li>
+						<li class="nav-item">
+							<a href="#tours" class="nav-link text-white">Tours</a> 
+						</li>
+						<li class="nav-item">
+							<a href="#Achivements" class="nav-link text-white">Achivements</a> 
+						</li>
+						<li class="nav-item">
+							<a href="#contact" class="nav-link text-white">Contact us</a>  
+						</li>
+					</ul>
+					
+				</div>
+			</div>
+		</nav>
+
+		<div class="container text-center text-white headerset">
+			<h2>Welcome to </h2>
+			<h1>EUPHORIA</h1>
+			<button class="btn btn-secondary text-white btn-lg">More</button>
+		</div>
+	</div>
+<!--SErvices----------------------------------------->
+	<section class="container ourservices text-center" id="ourservices">
+		<h1>Services</h1>
+		<p>Go, fly, roam, travel, voyage, explore, journey, discover, adventure.</p>
+		<div class="row rowsetting">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto bg-secondary"><i class="fa fa-taxi fa-4x text-white"> </i>
+				</div>
+				<h2>India Tours</h2>
+				<p>Explore India,<br> Guaranteed Services.</p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<div class="imgsetting d-block m-auto bg-secondary"><i class="fa fa-plane fa-5x text-white"> </i>
+				</div>
+				<h2>International Tours</h2>
+				<p>Premium International Destinations,<br> Personalized Tailor Made Tours. </p>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto ">
+				<div class="imgsetting d-block m-auto bg-secondary"><i class="fa fa-map-marker fa-5x text-white"> </i>
+				</div>
+				<h2>Holidays Offers</h2>
+				<p>Latest Holiday Offers<br> By Luxury Hotels.</p>
+				
+			</div>
+			
+		</div>
+
+
+		
+	</section>
+<!--
+	=====================Tours===================-->
+	<section class="tours bg-light" id="tours">
+		<div class="container text-center">
+			<h1>Tour and Travels</h1>
+			<p>Most Popular tours in India</p>
+
+			<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="golden-triangle-tours.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">Golden triangle Tours  </h2>
+						<p class="card-text"> The popular tour of the Golden Triangle includes the connectivity of the capital Delhi, Jaipur and Agra at a distance of 200 km from one to another. If one needs to cover all the historical highlights, then nothing than a Golden Triangle Tour Package is</p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="gujarat-tours.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">Gujarat Tours</h2>
+						<p class="card-text"> If you are given access to the most exclusive and customizable Gujarat Tour Package put forward by Swan Tours, then how will you utilize it? If you still cannot decide, then relax! We have a wonderful plan to navigate you throughout the western shoreline of India.</p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="himachal-pradesh-tours.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">Himachal pradesh Tours</h2>
+						<p class="card-text"> Himachal Pradesh is one of the most-sought vacation getaways for the tourists for its authenticity in culture and scenic beauty that covers various cities like Shimla, Dharamshala, Dalhousie, and Kasauli.</p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="kashmir-tours.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">Kashmir Tours</h2>
+
+						<p class="card-text"> With Jammu & Kashmir comes alive some terms synonymous to the place like, the Dal Lake, shikaras and houseboats, as well as the pristine people with beautiful faces offering an overwhelming welcome. Your dream gets its ladder through the wonderful set of Kashmir Tour Packages presented by Swan Tours at the best prices possible.</p>
+						
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="leh-ladakh-tours_0.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">Leh Ladakh Tours</h2>
+						<p class="card-text"> Leh Ladakh is the perfect match for all the solo travelers, honeymooners and family vacationers for it has a thrill, romance, and solitude. Make your own way to Leh Ladakh as your next vacation getaway with the most delightful Leh Ladakh Tour package exclusively presented to you by Swan Tours.</p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="rajasthan-tours.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">Rajasthan Tours</h2>
+						<p class="card-text"> If you are eager to explore the most of Rajasthan in an organized manner, then what else then an exclusive Rajasthan Tour Package can assist you the best? With the tour package for Rajasthan, take pleasure in exploring and also stroll along the forts and other historic establishments making it renowned as the “Land of Kings”.</p>
+						
+					</div>
+					
+				</div>
+				
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="7-Days-Tour-in-India.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">7-Days Tour in India</h2>
+					</div>					
+				</div>				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-12 col-10 d-block m-auto">
+				<div class="card">
+					<img src="9-Day-Tour-in-India.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">9 Days Tour in India</h2>				
+					</div>					
+				</div>				
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-10 col-12 d-block m-auto">
+				<div class="card">
+					<img src="15-Days-Tour-in-India.jpg" class="card-img img-fluid">
+					<div class="card-body">
+						<h2 class="card-title">15 Days Tour in India</h2>
+					</div>					
+				</div>				
+			</div>
+			</div>
+		</div>
+	</section>
+<!-------------achivement-->
+<section class="Achivements" id="Achivements">
+	<div class="container text-center">
+		<h1>Our Achivements</h1>
+		<p>The road to success and the road to failure are almost exactly the same</p>
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<figure class="figure">
+					<img src="Award.jpg" class="figure-img img-fluid rounded-circle" height="100px" width="100px">
+					<figcaption>
+						<h4>2016</h4>
+						<p class="figure-captio">Best Business Travel Agency</p>
+					</figcaption>	
+				</figure>
+			</div>			
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<figure class="figure">
+					<img src="award1.png" class="figure-img img-fluid rounded-circle" height="100px" width="100px">
+					<figcaption>
+						<h4>2018</h4>
+						<p class="figure-captio">Best Tour Operator</p>
+					</figcaption>
+				</figure>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<figure class="figure">
+					<img src="Award.jpg" class="figure-img img-fluid rounded-circle" height="100px" width="100px">
+
+					<figcaption>
+						<h4>2019</h4>
+						<p class="figure-captio">Best Travel Agency</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+	</section>
+<!-- Contact ++++++++++++++++++++++ -->
+		<section class="section-padding" data-wow-delay="0.1s" id="contact">
+			<div class="container">
+				<div class="contact-sec text-center ">
+					<h2><span class="decorate">Contact</span></h2>
+					<p>Have a question or want to work together?</p>
+
+				</div>
+				<!-- input form -->
+				<div class="container">
+					<form class="contactform" method="post" role="form">
+						<div class="form-group">
+							<input type="text" name="name" class="form-control" data-wow-delay="0.3s" placeholder="Name" data-rule="minlen:4">
+							
+						</div>
+						<div class="form-group">
+							<input type="email" name="email" class="form-control" data-wow-delay="0.4s" placeholder="E-mail" data-rule="Email">
+							
+						</div>
+						<div class="form-group">
+							<input type="text" name="message" class="form-control " data-wow-delay="0.5s" placeholder="Type your message here" data-rule="required">
+							</input>
+						</div>
+						<div class="text-center">
+							<button class="btn btn-primary btn-lg " data-wow-delay="0.5s" type="submit" >Send Message</button>
+							
+						</div>
+
+						
+					</form>
+					
+				</div>
+
+				
+			</div>
+			
+		</section> 
+		<!-- Footer ++++++++++++++++ -->
+		<footer class="text-center">
+			<div class="container">
+				<div class="d-flex flex-wrap justify-content-center">
+					<div class="mr-sm-auto p-2">
+						All Rightd Reserved.
+						<div class="credits">
+							Designed by <a href="#">Payal Meena</a>
+						</div>
+						
+					</div>
+
+					<div class="p-2">
+						<ul class="social-list">
+							<li><a href="https://github.com/payal-gitport">Github</a> </li>
+							<li><a href="https://dribbble.com/simple_blue">Dribble</a></li>
+							<li><a href="#">Instagram</a> </li>
+							
+						</ul>
+						
+					</div>
+					
+				</div>
+				<div class="row text-center d-block">
+					<a href="#home" title="To Top"><i class="fa fa-angle-up"></i> </a>
+					
+				</div>
+				
+			</div>
+			
+		</footer>		
+</body>
+</html>
